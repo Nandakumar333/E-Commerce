@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    float: left;
+    width: 100%;
+    padding: 10%;
+    margin: 10px 0 10px 0;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.33);
+}
+.Background{
+    height: 100%;
+    width: 100%;
+    float: right;
+    position: relative;
+    z-index: -1;
+}
+.content{
+    padding: 10%;
+    color: white;
+    position: absolute;
+}
+.content h2{
+    font-size: 45px;
+}
+.clearfix{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.carousel{
+  position: relative;
+  padding: 51px 0 0 0;
+}
+
